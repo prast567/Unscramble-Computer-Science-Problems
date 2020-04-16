@@ -1,0 +1,22 @@
+Complexities(Big O)
+
+Task 0:
+        Time Complexity - O(1) as the running time constant(doesnt depend on input).
+
+Task 1:
+        Time Complexity - O(n)
+        Execution time is directly proportion to the input data in a linear fashion.
+
+Task 2:
+        Time Complexity - O(n)
+        Execution time is directly proportion to the input data in a linear fashion.
+
+Task 3:
+        Time Complexity - O(nlog(n))
+        Execution time complexity for the loops will be linear(0(n)).But, the "sorted" function has a complexity of "O(n log n)".
+        So overall complexity becomes O(nlogn)
+
+Task 4:
+        Time Complexity - O(nlog(n))
+        Execution time complexity for the loops will be linear(0(n)).But, the "sorted" function has a complexity of "O(nlogn)".
+        So overall complexity becomes O(nlogn)
