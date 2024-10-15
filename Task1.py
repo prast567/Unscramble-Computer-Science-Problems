@@ -30,3 +30,14 @@ for i in range(len(calls)):
 
 
 print("There are %s different telephone numbers in the records."%len(tel_num))
+
+
+## Solution 2
+unique_numbers = set()
+
+for text in texts:
+    unique_numbers.update([text[0], text[1]])
+for call in calls:
+    unique_numbers.update([call[0], call[1]])
+
+print('There are {} different telephone numbers in the records.'.format(len(unique_numbers)))
